@@ -1,0 +1,19 @@
+{
+  "name": "get-uri-query",
+  "version": "1.0.0",
+  "description": "A function used for getting uri query",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elantion/getUriQuery.git"
+  },
+  "author": "JamesYin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elantion/getUriQuery/issues"
+  },
+  "homepage": "https://github.com/elantion/getUriQuery#readme"
+}
