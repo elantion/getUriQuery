@@ -1,2 +1,2 @@
 # getUriQuery
-a function use for getting uri query
+A function used for getting uri query
