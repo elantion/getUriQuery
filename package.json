@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/elantion/getUriQuery#readme",
   "devDependencies": {
-    "is-empty-object": "github:elantion/isEmptyObject",
-    "type-of": "github:elantion/typeOf"
+    "is-empty-object": "github:handyJs/isEmptyObject",
+    "type-of": "github:handyJs/typeOf"
   }
 }
