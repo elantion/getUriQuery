@@ -15,6 +15,9 @@ module.exports = function (uri) {
     if(~uri.indexOf('?')){
         uri = uri.replace(/[^?]*\?/, '');
     }
+    if(!~uri.indexOf('=')){
+        return {};
+    }
     //get query
     var query = {};
     var arr = uri.split('&');

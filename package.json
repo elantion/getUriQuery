@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/elantion/getUriQuery/issues"
   },
-  "homepage": "https://github.com/elantion/getUriQuery#readme"
+  "homepage": "https://github.com/elantion/getUriQuery#readme",
+  "devDependencies": {
+    "is-empty-object": "github:elantion/isEmptyObject",
+    "type-of": "github:elantion/typeOf"
+  }
 }
