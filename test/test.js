@@ -1,7 +1,7 @@
 var getUriQuery = require('../index');
 var assert = require('assert');
-var isEmptyObject = require('is-empty-object');
-var typeOf = require('type-of');
+var isEmptyObject = require('handy-is-empty-object');
+var typeOf = require('handy-type-of');
 
 describe('#getUriQuery()', function() {
     var testUri1 = 'www.google.com?search=where%20is%20my%20car';
