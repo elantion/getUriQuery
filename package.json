@@ -1,5 +1,5 @@
 {
-  "name": "get-uri-query",
+  "name": "lc-get-uri-query",
   "version": "1.0.1",
   "description": "A function used for getting uri query",
   "main": "index.js",
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elantion/getUriQuery.git"
+    "url": "git+https://github.com/lazycoffee/lc-get-uri-query.git"
   },
   "author": "JamesYin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/elantion/getUriQuery/issues"
+    "url": "https://github.com/lazycoffee/lc-get-uri-query/issues"
   },
-  "homepage": "https://github.com/elantion/getUriQuery#readme",
+  "homepage": "https://github.com/lazycoffee/lc-get-uri-query#readme",
   "devDependencies": {
-    "handy-is-empty-object": "^1.0.0",
-    "handy-type-of": "^1.0.0"
+    "lc-is-empty-object": "^1.0.0",
+    "lc-type-of": "^1.0.0"
   },
   "dependencies": {
 
