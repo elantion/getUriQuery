@@ -1,5 +1,5 @@
 'use strict';
-module.exports = function (uri) {
+var getUriQuery = function (uri) {
     //get query string
     if(!uri){
         if(!window){
@@ -27,3 +27,4 @@ module.exports = function (uri) {
     });
     return query;
 };
+module.exports = getUriQuery;

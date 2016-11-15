@@ -1,6 +1,6 @@
 {
   "name": "lc-get-uri-query",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A function used for getting uri query",
   "main": "index.js",
   "scripts": {
