@@ -1,9 +1,13 @@
 {
   "name": "lc-get-uri-query",
-  "version": "1.0.2",
+  "version": "1.1.4",
   "description": "A function used for getting uri query",
-  "main": "index.js",
+  "main": "src/entry/index.js",
+  "typings": "src/entry/index",
   "scripts": {
+    "start": "npm run lite",
+    "lite": "./node_modules/.bin/lite-server",
+    "watch": "./node_modules/.bin/webpack --config webpack.config.js --display-error-details --watch",
     "test": "mocha"
   },
   "repository": {
@@ -17,10 +21,8 @@
   },
   "homepage": "https://github.com/lazycoffee/lc-get-uri-query#readme",
   "devDependencies": {
-    "lc-is-empty-object": "^1.0.0",
-    "lc-type-of": "^1.0.0"
   },
-  "dependencies": {
-
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
   }
 }

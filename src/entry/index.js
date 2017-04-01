@@ -1,22 +1,17 @@
-'use strict';
+"use strict";
 var getUriQuery = function (uri) {
     //get query string
-    if(!uri){
-        if(!window){
-            console.error('Can\'t get uri without uri argument when not running in browser environment');
-            return false;
+    if (!uri) {
+        if (!window) {
+            throw new Error('Can\'t get uri without uri argument when not running in browser environment');
         }
         uri = window.location.href;
     }
-    if(/\?$/.test(uri)){
-        console.error('Can not get query string when \'?\' at the end of uri.');
-        return false;
-    }
-    if(~uri.indexOf('?')){
-        uri = uri.replace(/[^?]*\?/, '');
-    }
-    if(!~uri.indexOf('=')){
+    if (/\?$/.test(uri)) {
         return {};
+    }
+    if (~uri.indexOf('?')) {
+        uri = uri.replace(/[^?]*\?/, '');
     }
     //get query
     var query = {};
