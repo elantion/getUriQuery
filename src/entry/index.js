@@ -13,6 +13,9 @@ var getUriQuery = function (uri) {
     if (~uri.indexOf('?')) {
         uri = uri.replace(/[^?]*\?/, '');
     }
+    else {
+        return {};
+    }
     //get query
     var query = {};
     var arr = uri.split('&');

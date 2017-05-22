@@ -11,6 +11,8 @@ let getUriQuery = function (uri?:string):any {
     }
     if(~uri.indexOf('?')){
         uri = uri.replace(/[^?]*\?/, '');
+    }else{
+        return {};
     }
     //get query
     let query:{[key:string]:any} = {};
